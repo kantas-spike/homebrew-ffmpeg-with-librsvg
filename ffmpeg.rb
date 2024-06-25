@@ -64,6 +64,7 @@ class Ffmpeg < Formula
   depends_on "xz"
   depends_on "zeromq"
   depends_on "zimg"
+  depends_on "librsvg"
 
   uses_from_macos "bzip2"
   uses_from_macos "libxml2"
@@ -147,6 +148,7 @@ class Ffmpeg < Formula
       --enable-libsoxr
       --enable-libzmq
       --enable-libzimg
+      --enable-librsvg
       --disable-libjack
       --disable-indev=jack
     ]
